@@ -3,3 +3,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+h1 {
+  font-weight: 1000;
+  color: #61dafb;
+  text-align: center;
+  font-size: 45px;
+}

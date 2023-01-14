@@ -1,0 +1,29 @@
+.coin-container {
+  display: flex;
+  justify-content: center;
+}
+
+.coin-card {
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  width: 150px;
+}
+
+.bear {
+  color: #f00606;
+}
+
+.bull {
+  color: #00ff80;
+}
+.img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
