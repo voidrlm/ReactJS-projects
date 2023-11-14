@@ -12,10 +12,11 @@ function App() {
   const load = async () => {
     const baseURL = "https://unpkg.com/@ffmpeg/core@0.12.4/dist/umd";
     const ffmpeg = ffmpegRef.current;
-    ffmpeg.on("log", ({ message }) => {
-      messageRef.current.innerHTML = message;
-      console.log(message);
-    });
+    //TODO - Can be used for logging purposes
+    // ffmpeg.on("log", ({ message }) => {
+    //   messageRef.current.innerHTML = message;
+    //   console.log(message);
+    // });
     await ffmpeg.load({
       coreURL: await toBlobURL(`${baseURL}/ffmpeg-core.js`, "text/javascript"),
       wasmURL: await toBlobURL(
